@@ -14,7 +14,7 @@ You can group all calls by doing one GET:
 - GET api/resources ? users=api/users & customer=api/customers?id=23 & countries=api/countries
 
 which will return an associative array with the results:
-{users: {..}, customers: {..}, countries: {..} }
+- {users: {..}, customers: {..}, countries: {..} }
 
 ## Installation
 
