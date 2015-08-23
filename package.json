@@ -1,6 +1,6 @@
 {
   "name": "many-in-one",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows you to handle many http requests grouped into a single request's query",
   "main": "./lib/index.js",
   "scripts": {
