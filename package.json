@@ -1,0 +1,36 @@
+{
+  "name": "many-in-one",
+  "version": "1.0.0",
+  "description": "Allows you to handle many http requests grouped into a single request's query",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/handleManyInOne.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oligrand/many-in-one.git"
+  },
+  "keywords": [
+    "http",
+    "request"
+  ],
+  "author": "Oliver Grandvuinet <oligrand@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oligrand/many-in-one/issues"
+  },
+  "homepage": "https://github.com/Oligrand/many-in-one#readme",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "request": "2.61.x",
+    "async": "1.4.x"
+  },
+  "devDependencies": {
+    "mocha": "2.2.x",
+    "chai": "3.2.x",
+    "nock": "2.10.x",
+    "node-mocks-http": "1.4.x"
+  }
+}
