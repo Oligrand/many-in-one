@@ -11,5 +11,5 @@ deploy:
   api_key:
     secure: YXaqOTU+BzeqtJz8nwcdOAjBXnyZuNxIAsKMK+R+TMIbYTw8E3/UWesbyStILkjmlP8zy6CIheqqA0uy+ffejZMjXeGryH6UbHGcxg8mcNa/NY+GoWhJDN6IWSbApsmd9ajA2hCZZ0+ETwgUKEeYsILYRFi7D3+1NoafCKOCad4jejj6hsn0gqCg/pq5S4ldDqq6CcpEzSrzRidXiIj8SUYO+1/4Ikd20uQqCTGtV7F+Tzurum3THMRfmFgzMg+qacd0m91VNm4I1QWqkX6hdch4DUb8K8qCjp1noJJJi7dygY0O3yjpvi6uGpxt1NE6TTaEuM9t689pwYSH8PBq0+ffRK0KU0jvKgJkX9XS8Y8xP5DkX3kBMH2MrMy382uDc/xt7uqx2PqK/4gGRAgT192smB3Jo78xxv4/TdBAIErGJzZBwvpLI2kzMXlHS7a9kS60rcxXGqxbKCPifoKkEePeGuMkoX6mzoQOX7S/rWwzbqb9D7w7Gpr2t2pY/WHIud+1HxVcsJs4h6dfgxAOHTgqhWbbVOyH6zpLy4V+XrqP5JqIvK6UUPk19KJNvfFCj7Che4HFRZUdEshNtosAKZ+hrCutwRTZHm94UK2bWnko+OEWHc5wnnCZ7NDuQqAcXSkTxaC7715Zhra7pm3hTl71+ZyjM9qt9nrcPceHck8=
   on:
-    tags: true
+    tags: false
     repo: Oligrand/many-in-one
