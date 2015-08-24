@@ -47,11 +47,6 @@ before(function () {
     .persist()
     .get(apiPath + 'books')
     .replyWithError(new Error(errorMessage));
-
-  nock('https://'+host)
-    .persist()
-    .get(apiPath + 'users')
-    .reply(200, users, {'Content-Type': 'application/json'});
 });
 
 describe('handleManyInOneRequest', function () {
